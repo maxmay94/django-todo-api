@@ -1,0 +1,40 @@
+# Python and Django related
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.mysql
+*.log
+
+# Virtual environment
+myenv/
+venv/
+env/
+*.env
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Miscellaneous
+*.swp
+*.swo
+*.swn
+*.bak
+.DS_Store
+*.tmp
+*.egg-info/
+dist/
+build/
+docs/_build/
+*.pid
+*.lock
+*.pot
+*.po
+*.mo
