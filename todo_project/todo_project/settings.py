@@ -57,11 +57,13 @@ MIDDLEWARE = [
 ]
 
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:19000",
-    "http://localhost:19001",
-    "http://localhost:19002",
-]
+# CORS_ALLOWED_ORIGINS = [
+#     "http://localhost:19000",
+#     "http://localhost:19001",
+#     "http://localhost:19002",
+#     # "http://localhost:8000",
+# ]
+CORS_ORIGIN_ALLOW_ALL = True
 
 
 ROOT_URLCONF = "todo_project.urls"
