@@ -18,7 +18,7 @@ class Migration(migrations.Migration):
             model_name="todoitem",
             name="user",
             field=models.ForeignKey(
-                default=1,
+                default=django.utils.timezone.now,
                 on_delete=django.db.models.deletion.CASCADE,
                 to=settings.AUTH_USER_MODEL,
             ),
